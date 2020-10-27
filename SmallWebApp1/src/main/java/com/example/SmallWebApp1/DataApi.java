@@ -29,16 +29,5 @@ public class DataApi {
 		
 		return repo.findById(id);
 	}
-//	@RequestMapping("/showDetails")
-//	public ModelAndView function() {
-//		System.out.println("ShowDetails");
-//		ModelMap map = new ModelMap();
-//		map.put("name", reg.getUName());
-//		map.put("email", reg.getEmailId());
-//		map.put("gender", reg.getGender());
-//		
-//		ModelAndView mv = new ModelAndView("user-details");
-//		mv.addObject("regObj",map);
-//		return mv;
-//	}
+
 }

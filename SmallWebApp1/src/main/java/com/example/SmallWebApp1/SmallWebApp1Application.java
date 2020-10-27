@@ -11,7 +11,6 @@ public class SmallWebApp1Application {
 	public static void main(String[] args) {
 		System.out.println("Hello-11");
 		SpringApplication.run(SmallWebApp1Application.class, args);
-		System.out.println("Hello-22");
+		System.out.println("Hello-25");
 	}
-
 }
