@@ -9,7 +9,7 @@ public class SpringWithMySqlApplication {
 		System.out.println("Hello-1");
 		SpringApplication.run(SpringWithMySqlApplication.class, args);
 		System.out.println("Hello-2");
-		Book book = new Book();
-		book.info();
+		//Book book = new Book();
+		//book.info();
 	}
 }
