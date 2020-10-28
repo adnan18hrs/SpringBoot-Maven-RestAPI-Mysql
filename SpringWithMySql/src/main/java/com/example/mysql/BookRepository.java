@@ -1,6 +1,8 @@
 package com.example.mysql;
 
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public class BookRepository {
-
+public interface BookRepository extends JpaRepository<Book,Long>{
+	
 }
+
